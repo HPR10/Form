@@ -15,22 +15,18 @@ struct WelcomeView: View {
                 Text("WELCOME")
                     .foregroundColor(.purple)
                     .font(.system(size: 40, weight: .bold, design: .rounded))
-                    .offset(y: -190)
+                    .offset(y: -20)
                 Text("ON BOARD")
                     .foregroundColor(.white)
                     .font(.system(size: 30, weight: .medium))
-                    .offset(y: -190)
+                    .offset(y: -20)
                 Text("All the fun starts here! \n Wanna fell these happy vibes? \n Create an account and \n you all set to go!")
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
-                    .offset(y: -150)
+                    .offset(y: -10)
                 
-                VStack {
-                    AnimetedView(show: $show)
-                        .frame(width: 5, height: 5)
-                        .padding()
-                }
-                
+                LottieImageView(animationName: "bee")
+                    .frame(width: 350, height: 350)
                 
                 Button {
                     // sign up
@@ -45,7 +41,7 @@ struct WelcomeView: View {
                         )
                     }
                 .padding(.top)
-                .offset(y: 240)
+                .offset(y: 10)
                 
                 Button {
                     // login in
@@ -55,7 +51,7 @@ struct WelcomeView: View {
                         .foregroundColor(.white)
                     }
                 .padding(.top)
-                .offset(y: 240)
+                .offset(y: 30)
                 }
             }
         .ignoresSafeArea()
@@ -68,17 +64,3 @@ struct ContentView_Previews: PreviewProvider {
   }
 }
 
-struct AnimetedView: UIViewRepresentable {
-    @Binding var show: Bool
-    
-    func makeUIView(context: Context) -> AnimationView {
-        let view = AnimationView(name: "bee", bundle: Bundle.main)
-        
-        view.loopMode = .loop
-        view.contentMode = .scaleAspectFit
-        view.play()
-        return view
-    }
-    func updateUIView(_ uiView: AnimationView, context: Context) { }
-    
-}
