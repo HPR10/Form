@@ -1,13 +1,16 @@
 import SwiftUI
+import Lottie
 
 struct WelcomeView: View {
     
     let gradient = Gradient(colors: [.orange, .purple])
     
+    @State var show = false
+    
     var body: some View {
         ZStack {
                 LinearGradient(gradient: gradient, startPoint: .top, endPoint: .bottom)
-                
+            
             VStack {
                 Text("WELCOME")
                     .foregroundColor(.purple)
@@ -21,6 +24,13 @@ struct WelcomeView: View {
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                     .offset(y: -150)
+                
+                VStack {
+                    AnimetedView(show: $show)
+                        .frame(width: 5, height: 5)
+                        .padding()
+                }
+                
                 
                 Button {
                     // sign up
@@ -54,6 +64,21 @@ struct WelcomeView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+       WelcomeView()
+  }
+}
+
+struct AnimetedView: UIViewRepresentable {
+    @Binding var show: Bool
+    
+    func makeUIView(context: Context) -> AnimationView {
+        let view = AnimationView(name: "bee", bundle: Bundle.main)
+        
+        view.loopMode = .loop
+        view.contentMode = .scaleAspectFit
+        view.play()
+        return view
     }
+    func updateUIView(_ uiView: AnimationView, context: Context) { }
+    
 }
