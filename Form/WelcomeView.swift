@@ -4,7 +4,6 @@ import Lottie
 struct WelcomeView: View {
     
     let gradient = Gradient(colors: [.orange, .purple])
-    
     @State var show = false
     
     var body: some View {
@@ -25,7 +24,7 @@ struct WelcomeView: View {
                     .multilineTextAlignment(.center)
                     .offset(y: -10)
                 
-                LottieImageView(animationName: "bee")
+                LottieImageView(animationName: "Bee")
                     .frame(width: 350, height: 350)
                 
                 Button {

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E050E9228EBCBA000B2E3BD /* LottieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E050E9128EBCBA000B2E3BD /* LottieImageView.swift */; };
-		E646590628E66A310068026C /* bee.json in Resources */ = {isa = PBXBuildFile; fileRef = E646590528E66A310068026C /* bee.json */; };
+		E646590628E66A310068026C /* Bee.json in Resources */ = {isa = PBXBuildFile; fileRef = E646590528E66A310068026C /* Bee.json */; };
 		E6B2443928E55536001373CC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E6B2443828E55536001373CC /* Lottie */; };
 		E6BD266628E29513009D4D1D /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD266528E29513009D4D1D /* FormApp.swift */; };
 		E6BD266828E29513009D4D1D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD266728E29513009D4D1D /* WelcomeView.swift */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3E050E9128EBCBA000B2E3BD /* LottieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieImageView.swift; sourceTree = "<group>"; };
-		E646590528E66A310068026C /* bee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bee.json; sourceTree = "<group>"; };
+		E646590528E66A310068026C /* Bee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Bee.json; sourceTree = "<group>"; };
 		E6BD266228E29513009D4D1D /* Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BD266528E29513009D4D1D /* FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp.swift; sourceTree = "<group>"; };
 		E6BD266728E29513009D4D1D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		E6BD265928E29513009D4D1D = {
 			isa = PBXGroup;
 			children = (
-				E646590528E66A310068026C /* bee.json */,
+				E646590528E66A310068026C /* Bee.json */,
 				E6BD266428E29513009D4D1D /* Form */,
 				E6BD266328E29513009D4D1D /* Products */,
 			);
@@ -141,7 +141,7 @@
 			files = (
 				E6BD266D28E29514009D4D1D /* Preview Assets.xcassets in Resources */,
 				E6BD266A28E29514009D4D1D /* Assets.xcassets in Resources */,
-				E646590628E66A310068026C /* bee.json in Resources */,
+				E646590628E66A310068026C /* Bee.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
