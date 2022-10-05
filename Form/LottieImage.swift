@@ -3,7 +3,7 @@ import SwiftUI
 import Lottie
 
 
-struct LottieImageView: UIViewRepresentable {
+struct LottieImage: UIViewRepresentable {
     let animationName: String
     
     func makeUIView(context: Context) -> some UIView {
