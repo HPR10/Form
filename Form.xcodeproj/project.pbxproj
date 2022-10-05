@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E050E9228EBCBA000B2E3BD /* LottieImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E050E9128EBCBA000B2E3BD /* LottieImage.swift */; };
 		3E1296E628ED209F004AB7A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1296E528ED209F004AB7A0 /* LoginView.swift */; };
+		3E1296E828ED283F004AB7A0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1296E728ED283F004AB7A0 /* RegisterView.swift */; };
 		E646590628E66A310068026C /* Bee.json in Resources */ = {isa = PBXBuildFile; fileRef = E646590528E66A310068026C /* Bee.json */; };
 		E6B2443928E55536001373CC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E6B2443828E55536001373CC /* Lottie */; };
 		E6BD266628E29513009D4D1D /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD266528E29513009D4D1D /* FormApp.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3E050E9128EBCBA000B2E3BD /* LottieImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieImage.swift; sourceTree = "<group>"; };
 		3E1296E528ED209F004AB7A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3E1296E728ED283F004AB7A0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E646590528E66A310068026C /* Bee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Bee.json; sourceTree = "<group>"; };
 		E6BD266228E29513009D4D1D /* Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BD266528E29513009D4D1D /* FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E6BD266528E29513009D4D1D /* FormApp.swift */,
 				E6BD266728E29513009D4D1D /* WelcomeView.swift */,
 				3E1296E528ED209F004AB7A0 /* LoginView.swift */,
+				3E1296E728ED283F004AB7A0 /* RegisterView.swift */,
 				3E050E9128EBCBA000B2E3BD /* LottieImage.swift */,
 				E6BD266928E29514009D4D1D /* Assets.xcassets */,
 				E6BD266B28E29514009D4D1D /* Preview Content */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6BD266828E29513009D4D1D /* WelcomeView.swift in Sources */,
+				3E1296E828ED283F004AB7A0 /* RegisterView.swift in Sources */,
 				3E050E9228EBCBA000B2E3BD /* LottieImage.swift in Sources */,
 				3E1296E628ED209F004AB7A0 /* LoginView.swift in Sources */,
 				E6BD266628E29513009D4D1D /* FormApp.swift in Sources */,

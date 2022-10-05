@@ -47,7 +47,7 @@ struct WelcomeView: View {
                     Button {
                         // register in
                     } label: {
-                        NavigationLink("Have an account? Cool! \n Log in then!", destination: LoginView())
+                        NavigationLink("Have an account? Cool! \n Log in then!", destination: RegisterView())
                             .bold()
                             .foregroundColor(.white)
                     }

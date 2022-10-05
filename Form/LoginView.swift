@@ -2,7 +2,15 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("LOGIN")
+                .foregroundColor(.purple)
+                .font(.system(size: 40, weight: .bold, design: .rounded))
+                .offset(y: -20)
+            Text("TO CONTINUE")
+                .foregroundColor(.red)
+            
+        }
     }
 }
 
